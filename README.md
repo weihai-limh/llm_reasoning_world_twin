@@ -5,7 +5,7 @@
 <br>The project leverages large language models (LLMs) to reason about real-world digital twin objects.  
 <br>Since the reasoning results include digital twin objects, they can be simulated using a graphics engine.  
 <br>These results are then projected into the real world via IoT, enabling the execution of the inferred outcomes.  
-<br>[!llm_reasoning_world_twin_flowchart](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/llm_reasoning_world_twin_flowchart.png)
+![llm_reasoning_flowchart](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/llm_reasoning_world_twin_flowchart.png)
 
 ## Prompt  
 <br>The user's initial query is processed by the **Prompt Agent** to generate a structured **prompt** containing **base_guided**, **base_guided**, **base_guided**, and **base_guided**.  
