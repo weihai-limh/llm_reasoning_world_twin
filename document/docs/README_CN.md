@@ -222,6 +222,8 @@ inference_object=[
 ```
 <br>获得推理结果('物品'在空间中的位置)后,
 <br>通过对数字孪生对象的修改自动激活与'图形引擎'的交互,并自动调用'室内导航'微服务,通过该服务生成'室内导航'
+![dt2image](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/dt2image.png)<br>
+![dt2image](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/hybrid_navigation.png)<br>
 <br>除'查找房间中的某项物品'外还可以通过该方法'结合知识预测空间能否满足某些规则';
 <br>还可以快速定位建筑物内的隐蔽工程,例如'建筑中的水管或电线'
 <br>获得推理结果后,可以自动激活与'图形引擎'的交互,并自动'高亮显示'推理结果中符合条件的'数字孪生对象'对应的'几何模型'.
