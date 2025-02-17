@@ -150,7 +150,7 @@ print(get_inference_results(inference_object,modle_obj))
 <br>In practice, this data transformation can be achieved using open-source or commercial **conversion tools**, or through custom-developed solutions.  
 <br>If the source data consists of 3D reconstructed objects (e.g., `.osgb` or `.splat`) derived from imagery, they can also be calibrated using `.ifc` or `.geojson` and then transformed into **Spatial Digital Twin Descriptions**. 
 
-[数据转化]()
+![digital_twins_description_types](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/digital_twins_description_types.png)
 
 
 ### Human Body Digital Twin Description  
@@ -223,7 +223,7 @@ print(get_inference_results(inference_object,modle_obj))
 <br>If instructions exist, they are executed via RESTful APIs, driving IoT devices to perform actions in the physical space.  
 <br>For example, if the position of an object in the physical space is changed, this triggers further update instructions, modifying the **geometry files** of the digital twin objects.  
 
-[综合图]()
+![llm_reasoning_flowchart](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/inference_result2spatial_Intelligence.png)
 
 
 ## Application Examples  
