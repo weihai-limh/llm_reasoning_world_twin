@@ -53,23 +53,23 @@ print(get_inference_results(inference_object,modle_obj))
 <br>'数字孪生描述'本质是语义统一的描述,但是为了在现实中各个领域有更好的应用
 <br>我依然对其按应用场景进行分类
 ![digital_twins_description_types](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/digital_twins_description_types_cn.png)
-<br>'空间数字孪生描述':
+<br>**空间数字孪生描述**:
 <br>现实中绝大多数活动都受其发生的现实空间所影响,
 <br>'空间数字孪生描述'即是以文本形式对真实世界所在环境的语义表达,
 <br>'空间数字孪生描述'的数据源可自行生产或从政府的开放数据中得到.
 <br>我在数据源接入上主要以*.ifc(.usd),*.geojson(.osgb/.splat)为主,
 <br>在基于推理生成的结果中,可以通过'图形引擎'对'空间数字孪生描述'模型进行物理模拟及可视化表达.
 <br>可以根据喜好选用开源或商用的图形引擎,继续完成基础的物理模拟及相关的可视化表达.
-<br>'人体数字孪生描述':
+<br>**人体数字孪生描述**:
 <br>除空间之外,身体也很重要,
 <br>与'空间'相仿我们可以通过ai对'人体的数字孪生描述'及遇到的问题进行推理,
 <br>并用图形引擎进行模拟与可视化表达.'人体数字孪生描述'主要由:
 <br>'可视化人体数据集','人体三维模型','人体器官语义描述'构成,
 <br>通过基于'人体器官语义描述'的推理将结果映射到'可视化人体数据集'及'人体三维模型'
-<br>'风帆航海数字孪生描述':
+<br>**风帆航海数字孪生描述**:
 <br>'风帆航海相关的数字孪生描述'是基于'空间相关的数字孪生描述'的进一步表达,
 <br>该语义支持空间管理外还支持'风帆航海'相关的特定语义,补充了'迎风转向','顺风转向'等特定领域的行为
-<br>'水肺潜水数字孪生描述':
+<br>**水肺潜水数字孪生描述**:
 <br>'潜水相关的数字孪生描述'与'风帆航海相关的数字孪生描述'类似,
 <br>基于'人体相关的数字孪生描述'补充了'检查装备'等24项技巧对应的特定领域的行为特定领域行为
 ### 空间数字孪生描述
@@ -136,7 +136,7 @@ print(get_inference_results(inference_object,modle_obj))
 <br>如需对推理得到的结果进行可视化展示或对推理内容进行物理模拟则还需要将*.ifc文件转化出带guid的gltf文件.
 <br>实践中可自行通过开源或商用的'转化工具'或自研完成相关的数据转化工作.
 <br>如果源数据为.osgb/.splat等通过影像得到的三维重建对象,亦可通过.ifc/.geojson完成数据标定后转化为'空间数字孪生描述'
-![digital_twins_description_types](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/digital_twins_description_types_cn.png)
+![data_conversion](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/data_conversion.png)
 ### 人体数字孪生描述
 <br>基础的'人体数字孪生描述'详见
 <br>以下为基础的'人体数字孪生描述'的结构示例
