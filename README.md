@@ -244,6 +244,8 @@ inference_object=[
 ```
 <br>After obtaining the inference result (the location of the **item** in the space),  
 <br>modifications to the digital twin object automatically trigger interactions with the **graphics engine** and invoke the **indoor navigation** microservice. This service generates an **indoor navigation** path.  
+![dt2image](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/dt2image.png)<br>
+![dt2image](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/hybrid_navigation.png)<br>
 <br>In addition to **locating a specific item in a room**, this method can also **predict whether a space can satisfy certain rules based on knowledge**.  
 <br>It can also quickly locate concealed engineering systems within a building, such as **water pipes or electrical wires**.  
 <br>Once the inference result is obtained, interactions with the **graphics engine** are automatically activated, and the corresponding **geometric models** of the qualified **digital twin objects** in the inference result are **highlighted**.  
