@@ -150,7 +150,7 @@ print(get_inference_results(inference_object,modle_obj))
 <br>In practice, this data transformation can be achieved using open-source or commercial **conversion tools**, or through custom-developed solutions.  
 <br>If the source data consists of 3D reconstructed objects (e.g., `.osgb` or `.splat`) derived from imagery, they can also be calibrated using `.ifc` or `.geojson` and then transformed into **Spatial Digital Twin Descriptions**. 
 
-![digital_twins_description_types](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/digital_twins_description_types.png)
+![data_conversion](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/data_conversion.png)
 
 
 ### Human Body Digital Twin Description  
