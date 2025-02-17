@@ -1,6 +1,6 @@
 # llm_reasoning_world_twin
 <br>Use LLM to reason the digital twin model and use it as the 'digital twin hub' to drive IOT, thereby solving problems related to it in reality
-[中文](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/docs/README_CN.md)
+<br>[中文](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/docs/README_CN.md)
 <br>The digital twin object is an aggregate comprising semantic description files and geometric files.  
 <br>The project leverages large language models (LLMs) to reason about real-world digital twin objects.  
 <br>Since the reasoning results include digital twin objects, they can be simulated using a graphics engine.  
