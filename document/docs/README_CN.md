@@ -52,7 +52,7 @@ print(get_inference_results(inference_object,modle_obj))
 ### 数字孪生描述
 <br>'数字孪生描述'本质是语义统一的描述,但是为了在现实中各个领域有更好的应用
 <br>我依然对其按应用场景进行分类
-[数字孪生描述类型图]
+![digital_twins_description_types](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/digital_twins_description_types_cn.png)
 <br>'空间数字孪生描述':
 <br>现实中绝大多数活动都受其发生的现实空间所影响,
 <br>'空间数字孪生描述'即是以文本形式对真实世界所在环境的语义表达,
