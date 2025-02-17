@@ -5,7 +5,7 @@
 <br>项目通过大语言模型对现实世界的数字孪生对象进行推理.
 <br>由于推理结果包含了数字孪生对象所以可以通过图形引擎模拟推理结果
 <br>并通过IOT投射到现实世界中使推理结果在现实中被执行.
-<br>[!llm_reasoning_world_twin_flowchart](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/llm_reasoning_world_twin_flowchart.png)
+<br>![llm_reasoning_world_twin_flowchart](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/llm_reasoning_world_twin_flowchart.png)
 ## prompt
 <br>用户的初始提问经过'prompt_agent'转化为包含'base_guided','base_guided',
 <br>'base_guided','base_guided'的'prompt'
