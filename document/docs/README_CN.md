@@ -7,8 +7,8 @@
 <br>并通过IOT投射到现实世界中使推理结果在现实中被执行.
 ![llm_reasoning_flowchart](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/llm_reasoning_world_twin_flowchart.png)
 ## prompt
-<br>用户的初始提问经过'prompt_agent'转化为包含'base_guided','base_guided',
-<br>'base_guided','base_guided'的'prompt'
+<br>用户的初始提问经过'prompt_agent'转化为包含'base_guided','business_rules',
+<br>'user_problems','user_problems'的'prompt'
 <br>将'prompt'提交模型进行推理后既可得到基于'数字孪生'及'相关规则'的推理结果
 <br>生成推理结果后可以使推理结果继续在'数字孪生'环境中继续驱动其他行为.
 ```
