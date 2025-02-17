@@ -203,7 +203,7 @@ print(get_inference_results(inference_object,modle_obj))
 <br>'图形引擎'对新的'属性文件'进行解析,并从解析中判断是否有要执行的'指令',
 <br>如有则执行指令,该指令通过restful API驱动IOT设备在现实空间中执行动作,
 <br>如改变现实空间中对象的位置,则进一步触发修改指令,更新数字孪生对象的'几何文件'
-[综合图]()
+![llm_reasoning_flowchart](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/inference_result2spatial_Intelligence_cn.png)
 
 ## 应用示例
 ### 空间数字孪生描述
