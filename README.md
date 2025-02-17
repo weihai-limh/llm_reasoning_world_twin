@@ -55,7 +55,7 @@ print(get_inference_results(inference_object,modle_obj))
 ### Digital Twin Descriptions  
 <br>**Digital Twin Descriptions** are inherently unified semantic representations. However, to better apply them across real-world domains,  
 <br>they are categorized by application scenarios.  
-[Diagram: Types of Digital Twin Descriptions]  
+![digital_twins_description_types](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/digital_twins_description_types_cn.png)
 
 <br>**Spatial Digital Twin Description**:  
 <br>The majority of real-world activities are influenced by their physical environments.  
