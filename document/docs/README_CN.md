@@ -6,6 +6,8 @@
 <br>由于推理结果包含了数字孪生对象所以可以通过图形引擎模拟推理结果
 <br>并通过IOT投射到现实世界中使推理结果在现实中被执行.
 ![llm_reasoning_flowchart](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/llm_reasoning_world_twin_flowchart.png)
+<br>从推理结果到数字孪生对象执行结果.
+![llm2agent](https://github.com/weihai-limh/llm_reasoning_world_twin/blob/main/document/image/llm2agent_cn.png)
 ## prompt
 <br>用户的初始提问经过'prompt_agent'转化为包含'base_guided','business_rules',
 <br>'user_problems','user_problems'的'prompt'
